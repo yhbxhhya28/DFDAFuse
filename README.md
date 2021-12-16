@@ -3,7 +3,7 @@ This is the code for "DFDAFuse: An Infrared and Visible Image Fusion Network Usi
 
 ## Architecture:<br>
 DFDAFuse is an infrared and visible image fusion network. The current version supports Python=3.6, CUDA=11.1 and PyTorch=1.8, but it should work fine with similar versions of CUDA and PyTorch. 
-<div align=center><img src="https://github.com/yhbxhhya28/DFDAFuse/imgs/model.png" width="640" height="560"/></div>
+<img src="https://github.com/yhbxhhya28/DFDAFuse/imgs/model.png"">
 
 ## Usage
 ######## To train:
