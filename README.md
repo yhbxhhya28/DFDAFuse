@@ -24,10 +24,9 @@ The results will be saved in the `./generator/test_img/` folder.
 ## Acknowledgement
 The code of measure metrics is created based on VIFB[1]. We thank the authors of VIFB very much for making it publicly available. We also thank the contributors to the open source dataset, and all the authors who proposed SSIM, SCD, SF and Vif image evaluation methods.
 
-We also thank all authors of the integrated images, VIF methods and evaluation metrics for sharing their work to the community!
 
 ## Contact
-If you have any question, please email to me (yyyhya28@163.com).
+If you have any question, please email me (yyyhya28@163.com).
 
 ## References
 [1] Zhang X ,  Ye P ,  Xiao G . VIFB: A Visible and Infrared Image Fusion Benchmark[C]// IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. IEEE, 2020.
