@@ -7,7 +7,7 @@ from torch.optim import lr_scheduler
 from torchvision import transforms, utils
 from load import  *
 from batch_transformers import *
-from daspmodel import  *
+from model import  *
 from loss import  *
 from  strategy import  *
 
@@ -46,7 +46,7 @@ class Trainer(object):
                                        pin_memory=True,  #或加快速度
                                        num_workers=8)
         #initialize the model
-        self.model = DRSP_NET()
+        self.model = DFDAFuse()
         self.model_name = type(self.model).__name__
         print(self.model)
         # loss function

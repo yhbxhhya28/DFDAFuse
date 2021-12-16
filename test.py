@@ -1,7 +1,7 @@
 import time
 from load import  *
 from batch_transformers import *
-from daspmodel import  *
+from model import  *
 from loss import  *
 from main import  parse_config
 from strategy import  *
@@ -51,7 +51,7 @@ def main(config):
         f_extract=Feature_extraction_denseasp()
         f_fuse=CAFeature_fusion()
         f_recon=Feature_reconstruction_skip()
-        model = DRSP_NET()
+        model = DFDAFuse()
         model.to(device)
         _mse = L2().cuda()
         _mmssim = SSIM(data_range=1.0).cuda()
