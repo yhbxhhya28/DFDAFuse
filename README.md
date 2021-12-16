@@ -3,7 +3,7 @@ This is the code for "DFDAFuse: An Infrared and Visible Image Fusion Network Usi
 
 ## Architecture:<br>
 DFDAFuse is an infrared and visible image fusion network. The current version supports Python=3.6, CUDA=11.1 and PyTorch=1.8, but it should work fine with similar versions of CUDA and PyTorch. 
-<img src="https://github.com/yhbxhhya28/DFDAFuse/imgs/model.png width="600">
+<img src="https://github.com/yhbxhhya28/DFDAFuse/blob/main/imgs/model.png width="600">
 ## Usage
 ######## To train:
 download the source training dataset(with a total of 221 pairs) through [*Github*](https://github.com/hanna-xu/RoadScene), then crop by using the the function of'transforms.TenCrop(128,vertical_flip=False/True)' to obtain 4420 pairs images. After you have prepared the training data, please put their paths into the file, and then start the training through the following instructions:
