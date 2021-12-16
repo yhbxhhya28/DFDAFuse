@@ -9,7 +9,6 @@ DFDAFuse is an infrared and visible image fusion network. The current version su
 download the source training dataset(with a total of 221 pairs) through [*Github*](https://github.com/hanna-xu/RoadScene), then crop by using the the function of'transforms.TenCrop(128,vertical_flip=False/True)' to obtain 4420 pairs images. After you have prepared the training data, please put their paths into the file, and then start the training through the following instructions:
 ```python
 $ cd ~/DFDAFuse
-
 $ python3 main.py
 ```
 ### To Test:
