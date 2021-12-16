@@ -13,7 +13,7 @@ $ cd ~/DFDAFuse
 $ python3 main.py
 
 ### To Test:
-The test dataset includes [TNO](https://github.com/jianlihua123/TNO_Image_Fusion_Dataset) and [VIFB benchmark](https://github.com/xingchenzhang/VIFB). The directory 'test_image' provides all the image tested in our paper.
+The test dataset includes [TNO](https://github.com/jianlihua123/TNO_Image_Fusion_Dataset) and [VIFB benchmark](https://github.com/xingchenzhang/VIFB/tree/master/input). The directory 'test_image' provides all the image tested in our paper.
 
 $ cd ~/DFDAFuse
 
